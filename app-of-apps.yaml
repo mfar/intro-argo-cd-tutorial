@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: in-cluster
+    name: dev-cluster
   project: default
   source:
     path: apps
